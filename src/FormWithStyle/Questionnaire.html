@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета посетителя ресторана</title>
+    <link href="Styles.css" rel="stylesheet">
+</head>
+<body>
+<h1> Анкета посетителя ресторана</h1>
+<br>
+<fieldset class = "area">
+    <legend class = "secHeader">Контактная информация</legend>
+    <p><label>Имя: <input name="custname" id = "name"></label></p>
+    <p><label>Телефон: <input type=tel name="custtel" id = "tel"></label></p>
+    <p><label>E-mail: <input type=email name="custemail" id = "email"></label></p>
+    <p><label>Дата посещения: <input type="date" inputmode="numeric" id = "date"></label></p>
+</fieldset>
+<br>
+<fieldset class = "area">
+    <legend class = "secHeader">Персональная информация</legend>
+    <p><label>Возраст: <input type=number min=1 max=100 step=1></label></p>
+    <p><label>Любимая кухня: <select name="unittype" required>
+        <option value="">Выберите любимую кухню</option>
+        <option value="1" id = "rus">Русская</option>
+        <option value="2" id = "eur">Европейская</option>
+        <option value="3" id = "jap">Японская</option>
+    </select></label></p>
+    <p><label>Какие блюда вы бы хотели увидеть в меню? <textarea></textarea></label></p>
+</fieldset>
+<br>
+<fieldset class = "area">
+    <legend class = "secHeader">Оценка нашего заведения</legend>
+    <br>
+    <legend class = "lilHeader">Почему вы выбрали наше заведение</legend>
+    <p><label> <input type="radio" id = "nearHome">Недалеко от дома/работы</label></p>
+    <p><label> <input type="radio" id = "sawAd">Увидел рекламу</label></p>
+    <p><label> <input type="radio" id = "advise">Посоветовали</label></p>
+    <p><label> <input type="radio" id = "optimal">Оптимальное соотношение цены и качества</label></p>
+    <br>
+    <legend class = "lilHeader">Вы будете рекомендовать наше заведение знакомым?</legend>
+    <p><label> <input type="radio" id = "yes">Да</label></p>
+    <p><label> <input type="radio" id = "no">Нет</label></p>
+
+</fieldset>
+<br>
+<input type = submit value = "Отправить" class = "button">
+</body>
+</html>

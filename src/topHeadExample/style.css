@@ -1,0 +1,72 @@
+.topHead{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    margin: 50px 100px;
+    background-color: rgba(235,242,255,0.33);
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.logo{
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.categories{
+    color: #0C213B;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Pricing{
+    text-decoration: none;
+    color: #0C213B;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Business{
+    color: #0C213B;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Search{
+    color: #0C213B;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Log{
+    color: #0C213B;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Free{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s linear;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav1{
+    color: black;
+    text-decoration: none;
+    transition: font-weight 0.3s linear;
+}
+
+.nav1:hover{
+    font-weight: 1000;
+}
+.nav2{
+    color: white;
+    text-decoration: none;
+}
